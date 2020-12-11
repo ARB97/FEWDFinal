@@ -40,8 +40,16 @@ body {
 }
 
 /*Volunteer Registration*/
+form{
+    display:grid;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid rgba(2, 16, 90, 0.774);
+}
 input{
     display: block;
+    
 }
 
 .radio * {
