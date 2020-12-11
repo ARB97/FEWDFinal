@@ -37,5 +37,13 @@ body {
     margin:0;
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
-    
+}
+
+/*Volunteer Registration*/
+input{
+    display: block;
+}
+
+.radio * {
+    display: inline;
 }
