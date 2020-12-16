@@ -35,24 +35,53 @@ nav li{
     transition-timing-function: ease;
 }
 
+@media screen and (max-width: 600px){
+    .navigation-bar {
+        flex-direction: column;
+        width: 100vw;
+        padding: 0px;
+    }
+}
 
 body {
     display: grid;
-    place-items: center;
+place-items: center;
     padding:0;
     margin:0;
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
+}
+#maindiv{
+    display: flex;
+}
+
+/*Volunteer Registration*/
+.volunteerform{
+    display:grid;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border: 2px solid rgba(2, 16, 90, 0.774);
+    margin-right: 10px;
+}
+p{
+    text-align: center;
+}
+.donateform{
+    display:grid;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border: 2px solid rgba(2, 16, 90, 0.774);
+
+}
+
+
+input{
+    display: block;
     
 }
 
-/* Services */
-body {
-    display: grid;
-    place-items: center;
-    padding:0;
-    margin:0;
-}
 
 
 .gallery {
@@ -84,5 +113,22 @@ body {
 .gallery  img:hover {
     filter: grayscale(0);
     z-index: 2;
+}
+
+
+/*Donate Form*/
+
+
+#twenty-five{
+    display:inline;
+}
+#fifty{
+    display:inline;
+}
+#one-hundred{
+    display:inline;
+}
+#Other{
+    display:inline;
 }
 
