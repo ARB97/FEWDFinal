@@ -1,4 +1,10 @@
 /*Navigation Bar*/
+
+#left {
+    margin-right: auto;
+}
+
+
 nav{
     font-size: 1em;
     margin: 0;
@@ -39,8 +45,7 @@ nav li{
 
 body {
     display: grid;
-
-    place-items: center;
+place-items: center;
     padding:0;
     margin:0;
     font-family: 'Courier New', Courier, monospace;
@@ -76,6 +81,41 @@ input{
     display: block;
     
 }
+
+
+
+.gallery {
+    display: grid;
+    gap: 05px;
+    max-width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    grid-template-areas: "left center right" "left center right";
+}
+
+
+
+
+.gallery-card {
+    text-align: center;
+    background-color: rgba(2, 16, 90, 0.774);
+    padding: 15px;
+}
+
+.gallery  img {
+    width: 100%;
+    height: 250px;
+    filter: grayscale(100%);
+    background-color: rgba(2, 16, 90, 0.774);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery  img:hover {
+    filter: grayscale(0);
+    z-index: 2;
+}
+
+
 /*Donate Form*/
 
 
@@ -91,3 +131,4 @@ input{
 #Other{
     display:inline;
 }
+
