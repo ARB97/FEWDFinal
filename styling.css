@@ -1,4 +1,10 @@
 /*Navigation Bar*/
+
+#left {
+    margin-right: auto;
+}
+
+
 nav{
     font-size: 1em;
     margin: 0;
@@ -52,7 +58,7 @@ body {
 .gallery {
     display: grid;
     gap: 05px;
-    max-width: 60vh;
+    max-width: 100vw;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -64,9 +70,10 @@ body {
 
 .gallery  img {
     width: 100%;
+    height: 250px;
     filter: grayscale(100%);
     background-color: rgba(2, 16, 90, 0.774);
-    transition: transform: 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 
 .gallery  img:hover {
@@ -74,9 +81,3 @@ body {
     z-index: 2;
 }
 
-@media (min-width: 1200px) {
-    .gallery {
-        max-width: 99vw;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
