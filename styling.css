@@ -86,3 +86,8 @@ body {
     z-index: 2;
 }
 
+
+/* Home */
+
+.leftcol{float:left; width:50%}
+.rightcol{float:left; width:50%}
