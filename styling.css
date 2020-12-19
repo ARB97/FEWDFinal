@@ -1,4 +1,10 @@
 /*Navigation Bar*/
+
+#left {
+    margin-right: auto;
+}
+
+
 nav{
     font-size: 1em;
     margin: 0;
@@ -29,13 +35,111 @@ nav li{
     transition-timing-function: ease;
 }
 
+@media screen and (max-width: 600px){
+    .navigation-bar {
+        flex-direction: column;
+        width: 100vw;
+        padding: 0px;
+    }
+}
 
 body {
     display: grid;
-    place-items: center;
+/* place-items: center; */
     padding:0;
     margin:0;
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
+}
+#maindiv{
+    display: flex;
+}
+
+/*Volunteer Registration*/
+.volunteerform{
+    display:grid;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border: 2px solid rgba(2, 16, 90, 0.774);
+    margin-right: 10px;
+}
+p{
+    text-align: center;
+}
+.donateform{
+    display:grid;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border: 2px solid rgba(2, 16, 90, 0.774);
+
+}
+
+
+input{
+    display: block;
     
 }
+
+
+
+.gallery {
+    display: grid;
+    gap: 05px;
+    max-width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    grid-template-areas: "left center right" "left center right";
+}
+
+
+
+
+.gallery-card {
+    text-align: center;
+    background-color: rgba(2, 16, 90, 0.774);
+    padding: 15px;
+}
+
+.gallery  img {
+    width: 100%;
+    height: 250px;
+    filter: grayscale(100%);
+    background-color: rgba(2, 16, 90, 0.774);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery  img:hover {
+    filter: grayscale(0);
+    z-index: 2;
+}
+
+
+/* Home */
+
+.leftcol{float:left; left: 0px; width: 100%; height: 720px; border-style: solid; padding: 0%;
+    background-image: 
+    linear-gradient(to right,rgba(0, 28, 41, 0.500), rgba(0, 28, 41, 0.800) ), 
+    url("https://www.valleyvna.org/wp-valleyvna/uploads/2016/08/Waving-1024x585.jpg");
+background-repeat: no-repeat; background-size: cover;}
+    
+.rightcol{text-align: left; position:absolute; top: 150px; left: 50%; width:50%}
+
+
+
+/*Donate Form*/
+
+#twenty-five{
+    display:inline;
+}
+#fifty{
+    display:inline;
+}
+#one-hundred{
+    display:inline;
+}
+#Other{
+    display:inline;
+}
+
