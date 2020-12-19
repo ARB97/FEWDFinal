@@ -45,7 +45,7 @@ nav li{
 
 body {
     display: grid;
-place-items: center;
+/* place-items: center; */
     padding:0;
     margin:0;
     font-family: 'Courier New', Courier, monospace;
@@ -116,8 +116,19 @@ input{
 }
 
 
-/*Donate Form*/
+/* Home */
 
+.leftcol{float:left; left: 0px; width: 100%; height: 720px; border-style: solid; padding: 0%;
+    background-image: 
+    linear-gradient(to right,rgba(0, 28, 41, 0.500), rgba(0, 28, 41, 0.800) ), 
+    url("https://www.valleyvna.org/wp-valleyvna/uploads/2016/08/Waving-1024x585.jpg");
+background-repeat: no-repeat; background-size: cover;}
+    
+.rightcol{text-align: left; position:absolute; top: 150px; left: 50%; width:50%}
+
+
+
+/*Donate Form*/
 
 #twenty-five{
     display:inline;
