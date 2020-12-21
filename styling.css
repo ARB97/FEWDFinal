@@ -144,7 +144,7 @@ background-repeat: no-repeat; background-size: cover;}
 }
 
 /* Reviews/Testimonials */
-.revContainer h2{
+.abContainer h2{
     text-align: center;
 }
 
@@ -163,4 +163,25 @@ background-repeat: no-repeat; background-size: cover;}
 
 #abSubmit{
     background-color: rgba(25, 154, 240, 0.267);
+}
+
+/* Contact Page */
+
+#abBanner{
+    text-align: center;
+    width: 100%;
+}
+
+#abImg{
+    height: 350px;
+}
+
+.abContainer a{
+    color: rgb(7, 107, 189);
+    font-weight: bold;
+}
+
+.abContainer a:hover{
+    color: black;
+    font-weight: lighter;
 }
