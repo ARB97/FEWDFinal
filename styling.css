@@ -143,3 +143,24 @@ background-repeat: no-repeat; background-size: cover;}
     display:inline;
 }
 
+/* Reviews/Testimonials */
+.revContainer h2{
+    text-align: center;
+}
+
+.reviewsMain{
+    display:grid;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border: 2px solid rgba(2, 16, 90, 0.774);
+    margin-left: 25%;
+}
+
+#reviewsEntry{
+    height: 70px;
+}
+
+#abSubmit{
+    background-color: rgba(25, 154, 240, 0.267);
+}
