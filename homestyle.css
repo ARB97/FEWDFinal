@@ -6,7 +6,13 @@
     url("https://www.valleyvna.org/wp-valleyvna/uploads/2016/08/Waving-1024x585.jpg");
 background-repeat: no-repeat; background-size: cover;}
 
-.rightcol{text-align: left; position:absolute; top: 150px; left: 50%; width:50%;}
+.rightcol {
+    text-align: left;
+    position: absolute;
+    width: 40%;
+    top: 150px;
+    left: 40%;
+  }
 h2 {
     color:whitesmoke;
 }
